@@ -1,0 +1,12 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* Aqui defino algumas propriedades e valores gerais do projeto */
+}
+
+#container-main{
+    width: 1120px;
+    margin: auto;
+}
