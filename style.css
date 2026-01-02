@@ -3,10 +3,140 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
     /* Aqui defino algumas propriedades e valores gerais do projeto */
 }
 
+html{
+    background-color: #D97A6C;
+    border: 80px solid  #D97A6C;
+}
+body{
+    border: 8px solid #D97A6C;
+    box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.43);
+    border-radius: 32px;
+    background-color: white;
+}
+
+img{
+    border-radius: 28px;
+    width: 100%;
+}
+
+/* SUA PRÓXIMA VIAGEM */
 #container-main{
     width: 1120px;
     margin: auto;
+    padding-top: 80px;
+}
+
+#title-page{
+    padding-bottom: 40px;
+}
+
+#headline{
+    color: #E1624F;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+
+    padding-bottom: 8px;
+}
+
+h1, h2{
+    color: #1B1B1B;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 28px;
+}
+
+#description{
+    padding: 24px 0px 40px 0px;
+    color: #333333;
+    text-align: center;
+}
+
+/* PARA OS AMANTES DE HISTÓRIA */
+
+#title-list{
+    padding-top: 64px;
+}
+
+#title-list > p {
+    padding-top: 8px;
+    padding-bottom: 64px;
+}
+
+/* LISTA CARD-TRAVEL */
+
+ul{
+    list-style-type: none;
+}
+
+#card-travel{
+    padding-bottom: 48px;
+}
+
+li > img{
+    padding-bottom: 20px;
+}
+
+li > h3{
+    text-indent: 8px;
+}
+
+li > p{
+    padding-top: 4px;
+}
+
+li > strong{
+    color: #333333;
+}
+
+#history{
+    color: #0C51A7;
+}
+
+#couple{
+    color: #591B98;
+}
+
+#family{
+    color: #E5245E;
+}
+
+#budget{
+    color: #E95E10;
+}
+
+#division-line{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    color: #333333;
+    padding-bottom: 64px;
+}
+
+footer > a{
+    text-decoration: none;
+}
+
+footer > a:hover{
+    text-decoration: underline;
+    color: #0D1117;
 }
